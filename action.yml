@@ -41,3 +41,7 @@ runs:
         pip install -r ./requirements.txt
         python3 ./hitcarder.py
       shell: bash
+ on: 
+   work_flow_dispatch: 
+   schedule: 
+    
